@@ -34,7 +34,7 @@ export default function Login(){
                     <td style={{ color:'red' }} colspan={2}>{user.error}</td>
                 </tr>
             </table>
-            <button >Login</button>
+            <button onClick={authenticate}>Login</button>
         </div>
     )
 }
