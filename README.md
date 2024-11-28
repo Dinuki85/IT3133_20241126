@@ -1,0 +1,3 @@
+ This project demonstrates the implementation of basic navigation in a React application using the react-router-dom library. It was developed during a practical session to understand how client-side routing works in React. The application showcases a simple navigation system between multiple pages—Home, About Us, and Contact Us—using the Link and Route components.
+
+And also this project is a basic React-based authentication application that demonstrates the use of React Router for navigation and state management with useState and useNavigate. It includes a simple login mechanism where an admin user can log in with predefined credentials and navigate to a dashboard page.
