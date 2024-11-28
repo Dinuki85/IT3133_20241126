@@ -6,9 +6,17 @@ export default function Login(){
     const [user, setUser] = useState({ username: "" , pwd: "",error: ""})
     const getTextInput = (e)=>{
         const {name,value} = e.target;
-        setUser((prevUser))=>({
+        setUser((prevUser)=>({
             ...prevUser,[name]:value,
-        })
+        }))
+    }
+    const authenticate = () => {
+        if(user.username === "Admin" && user.pwd === "abc@123"){
+            setUser({username: "", pwd:"",error: ""})
+            navigate('/dash');
+        }else{
+            setUser({'error': "Please Check Your Username & Password"})
+        }
     }
     return(
         <div>
