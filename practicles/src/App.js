@@ -1,7 +1,9 @@
 import './App.css';
+import { BrowserRouter as Router, Routes, Route, Link, NavLink } from 'react-router-dom'
 import AboutUs from './components/AboutUs';
 import ContactUs from './components/ContactUs';
 import Home from './components/Home';
+
 
 function App() {
   return (
