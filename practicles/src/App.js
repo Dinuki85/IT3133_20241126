@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Routes, Route, Link, NavLink } from 'react-rou
 import AboutUs from './components/AboutUs';
 import ContactUs from './components/ContactUs';
 import Home from './components/Home';
+import Login from './components/Login';
+import Dashboard from './components/Dashboard';
 
 
 function App() {
@@ -21,6 +23,9 @@ function App() {
         <Route path='/home' element={<Home/>}/>
         <Route path='/about' element={<AboutUs/>}/>
         <Route path='/contact' element={<ContactUs/>}/>
+        <Route path='/' element={<Login/>}/>
+        <Route path='/dash' element={<Dashboard/>}/>
+
       </Routes>
     </Router>
     </div>
